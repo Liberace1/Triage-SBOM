@@ -1,0 +1,17 @@
+[theme]
+primaryColor = "#F63366"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+# Hide the built-in "Deploy" button and the ⋮ menu's developer items
+# (including "Record a screencast") for a clean presentation/demo.
+toolbarMode = "minimal"
+
+[server]
+port = 8501
+headless = true
+runOnSave = false

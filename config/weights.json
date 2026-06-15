@@ -1,0 +1,6 @@
+{
+  "_comment": "Transparent, tunable scoring weights for TriageSBOM. risk = (kev_boost if KEV else 0) + epss_weight*epss + cvss_weight*(cvss/10). kev_boost is larger than epss_weight+cvss_weight so any KEV-listed CVE always outranks any non-KEV CVE (hard escalator).",
+  "kev_boost": 100.0,
+  "epss_weight": 30.0,
+  "cvss_weight": 20.0
+}

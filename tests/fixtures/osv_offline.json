@@ -1,0 +1,30 @@
+{
+  "_comment": "Offline stand-in for OSV: component 'name@version' -> CVEs with their CVSS base score. Mirrors what the OSV API returns per component. Crafted sample data for a reproducible offline demo; not a live OSV snapshot. Components not listed here (flask, left-pad, zlib) are treated as clean (no CVEs).",
+  "log4j-core@2.14.1": [
+    { "cve_id": "CVE-2021-44228", "cvss": 10.0 }
+  ],
+  "spring-web@5.3.16": [
+    { "cve_id": "CVE-2022-22965", "cvss": 9.8 }
+  ],
+  "struts2-core@2.3.31": [
+    { "cve_id": "CVE-2017-5638", "cvss": 10.0 }
+  ],
+  "commons-text@1.9": [
+    { "cve_id": "CVE-2022-42889", "cvss": 9.8 }
+  ],
+  "openssl@3.0.0": [
+    { "cve_id": "CVE-2022-3602", "cvss": 9.8 }
+  ],
+  "webadmin-ui@1.4.2": [
+    { "cve_id": "CVE-2023-31001", "cvss": 4.3 }
+  ],
+  "lodash@4.17.19": [
+    { "cve_id": "CVE-2021-23337", "cvss": 7.2 }
+  ],
+  "jackson-databind@2.9.8": [
+    { "cve_id": "CVE-2019-12384", "cvss": 7.5 }
+  ],
+  "axios@0.21.0": [
+    { "cve_id": "CVE-2021-3749", "cvss": 7.5 }
+  ]
+}

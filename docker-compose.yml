@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  triagesbom-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./tests/fixtures:/app/tests/fixtures:ro
+      - ./config:/app/config:ro
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+    restart: unless-stopped
